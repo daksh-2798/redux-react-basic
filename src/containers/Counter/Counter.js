@@ -5,10 +5,10 @@ import CounterOutput from '../../components/CounterOutput/CounterOutput';
 import * as actionTypes from '../../store/actions';
 
 class Counter extends Component {
-    state = {
-        counter: 0,
-        storedResults:[]
-    }
+    // state = {
+    //     counter: 0,
+    //     storedResults:[]
+    // }
 
     // counterChangedHandler = ( action, value ) => {
     //     switch ( action ) {
