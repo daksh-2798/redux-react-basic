@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import {createStore,combineReducers,applyMiddleware,compose} from 'redux';
-import counterReducer from './store/counter';
-import resultReducer from './store/result';
+import counterReducer from './store/reducer/counter'; //'./store/counter';
+import resultReducer from './store/reducer/result';
 import { Provider } from 'react-redux';
 import ReduxThunk from 'redux-thunk';
 
